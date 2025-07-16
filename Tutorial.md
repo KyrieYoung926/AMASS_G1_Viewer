@@ -1,20 +1,18 @@
----
-license: cc-by-4.0
-task_categories:
-- robotics
-tags:
-- graphics
-- mocap
-- unitree
-- g1
-- retargeting
-pretty_name: Retargeted AMASS Dataset for G1 (AMP Format)
-size_categories:
-- 10K<n<100K
----
 # AMASS Dataset Toolkit
 
 A comprehensive toolkit for exploring, analyzing, and playing AMASS dataset (retargeted to G1 robot).
+
+The retargeted AMASS dataset for G1 is from [here](https://huggingface.co/datasets/ember-lab-berkeley/AMASS_Retargeted_for_G1)
+
+## Demo Examples
+
+<table>
+  <tr>
+    <td><img src="media/basketball.gif" alt="basketball" width="250"/></td>
+    <td><img src="media/dance.gif" alt="dance" width="250"/></td>
+    <td><img src="media/happy.gif" alt="happy" width="250"/></td>
+  </tr>
+</table>
 
 ## 📁 Project Structure
 
@@ -46,6 +44,21 @@ AMASS_Retargeted_for_G1/
 | `mujoco_player_fixed.py` | Motion player (fixed version) | ⭐⭐⭐⭐⭐ |
 
 ## 🚀 Quick Start
+
+### 0. Dataset Download 
+
+#### Clone AMASS Retargeted for G1 Dataset
+
+Make sure git-lfs is installed (https://git-lfs.com)
+```bash
+git lfs install
+
+git clone https://huggingface.co/datasets/ember-lab-berkeley/AMASS_Retargeted_for_G1
+```
+
+#### Copy the g1 folder to the root of this repository
+
+
 
 ### 1. Dataset Overview
 ```bash
