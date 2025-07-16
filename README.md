@@ -27,7 +27,7 @@ git clone https://huggingface.co/datasets/ember-lab-berkeley/AMASS_Retargeted_fo
 GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/datasets/ember-lab-berkeley/AMASS_Retargeted_for_G1
 ```
 
-### Save the dataset to g1/ directory
+## Step 2: Copy the g1 folder to the root of this repository
 
-## Step 2: Check the [`Tutorial.md`](Tutorial.md) for script tutorials
+## Step 3: Check the [`Tutorial.md`](Tutorial.md) for script tutorials
 
